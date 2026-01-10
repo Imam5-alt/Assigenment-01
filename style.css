@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-family: "Inter", sans-serif;
     /* width: 100%; */
+   
 }
 
 nav {
@@ -200,3 +201,4 @@ nav {
     text-align: center;
     color: white;
 }
+
