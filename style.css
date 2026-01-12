@@ -3,31 +3,47 @@ body {
     padding: 0;
     font-family: "Inter", sans-serif;
     /* width: 100%; */
-   
+
 }
 
-nav {
+#nav {
+    width: 100%;
+    max-width: 1600px;
+}
+
+#nav .nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
+    padding: 16px 120px;
+    margin: 0 auto;
     border: 1px solid #E0E0E0;
 }
 
-.menu ul {
-    list-style: none;
-    display: flex;
-    gap: 35px;
-    font-size: 25px;
-    font-weight: 500;
+#nav .nav-container .nav-image img {
+    width: 139px;
+    height: 60px;
+
+
 }
 
+#nav .nav-container .nav-menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    
+
+}
+
+/* common style */
+
 .btn {
-    padding: 5px 25px;
+    padding: 12px 16px;
     background-color: #30B868;
     color: #FFFFFF;
     border-radius: 5px;
-    font-size: 18px;
+    gap: 10px;
     border-collapse: collapse;
     cursor: pointer;
 
@@ -36,26 +52,34 @@ nav {
 #banner {
     height: 450px;
     background-image: url('assets/hero-bg.png');
-    /* background-size: cover; */
-    /* background-position: center; */
     align-items: center;
     text-align: center;
     padding-top: 80px;
 
 }
+.banner-container{
+    /* width: 1360px; */
+    text-align: center;
+    align-items: center;
+    
+}
 
-.access-button {
+.button {
     background-color: #FFFFFF;
     color: #30B868;
     border: none;
     padding: 5px 20px;
     font-size: 12px;
-    border-radius: 15px;
+    border-radius: 50px;
+    margin-bottom: 10px;
 }
+ .banner-content{
+    padding: 0 450px 32px;
+ }
 
 .banner-content h1 {
     font-size: 3em;
-    /* font-weight: 700; */
+    font-weight: 700;
     /* margin-bottom: 10px; */
 }
 
@@ -67,14 +91,17 @@ nav {
     color: #30B868;
 }
 
-.banner-content p {
+#banner .banner-content p {
+    /* width: 1360px; */
     font-size: 18px;
     color: #FFFFFF;
-    margin-top: 20px;
-    margin: 0 auto 25px;
+    /* display: flex; */
+    text-align: center; 
+    align-items: center;
+   justify-content: center;
 }
 
-.white-button {
+.btn-white {
     color: #FFFFFF;
     border: 1px solid #FFFFFF;
     background-color: transparent;
@@ -172,33 +199,35 @@ nav {
     font-weight: 500;
 }
 
-.banner-content p{
+.banner-content p {
     color: #627382;
 }
 
-.access-content{
+.access-content {
     justify-content: center;
     text-align: center;
     gap: 5px;
 }
 
-.access-content h2{
+.access-content h2 {
     font-size: 40px;
     font-weight: 700;
 }
-.access-content p{
+
+.access-content p {
     color: #627382;
     font-size: 16px;
 }
+
 .footer {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #053b69;
-    padding:#053b69;
+    padding: #053b69;
 }
-.ftr-content{
+
+.ftr-content {
     text-align: center;
     color: white;
 }
-
