@@ -291,7 +291,7 @@
     background-color: rgba(0, 10, 49, 1);
     color: #FFFFFF;
     padding: 80px 150px 40px;
-    margin-top: 120px;
+    margin-top: 80px;
 }
 
 #footer .footer-container {
@@ -323,11 +323,12 @@
 
 
 #footer .copyright {
-
+    font-size: 16px;
+    color: #FAFAFA;
+    line-height: 24px;
     text-align: center;
     margin-top: 40px;
     padding-top: 20px;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-    font-size: 14px;
-    color: #999;
+    border-top: 1px solid #627382;
+    
 }
